@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name        rainclass-exam-hack
-// @version     1.0.2
+// @name        雨课堂考试 Hack
+// @version     1.0.3
 // @include     /https:\/\/examination\.xuetangx\.com/
 // @run-at      document-start
 // @downloadURL https://github.com/CUC-Life-Hack/rainclass-exam-hack/raw/master/dist/main.user.js

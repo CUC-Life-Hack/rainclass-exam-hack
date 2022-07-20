@@ -24,8 +24,8 @@ export default {
 	plugins: [
 		new WebpackUserscript({
 			headers: {
-				name: 'rainclass-exam-hack',
-				version: '1.0.2',
+				name: '雨课堂考试 Hack',
+				version: '1.0.3',
 				grant: [],
 				include: /https:\/\/examination\.xuetangx\.com/.toString(),
 				'run-at': 'document-start'
