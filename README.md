@@ -27,14 +27,14 @@
 
 配置好 OBS 后，在浏览器的设置中将默认相机设为 OBS 的虚拟摄像机。
 
-[[docs/chrome-camera-settings.png|height=200px]]
+![](docs/chrome-camera-settings.png)
 
 > 对于 Chrome 浏览器，设置页在[这里](chrome://settings/content/camera)。
 
 这样，考试系统就只能获取到虚拟摄像机了。
 
-[[docs/camera-set.png|height=200px]]
-[[docs/real-camera-view.png|height=200px]]
+![](docs/camera-set.png)
+![](docs/real-camera-view.png)
 
 > 图里的摄像机没有内容是因为我没开 OBS，真正考试的时候记得开……
 
@@ -46,7 +46,7 @@
 在**进入考试页面后**（即看到试题后）刷新页面，打开浏览器的插件浮窗。
 若脚本正确激活，顶部栏里的 TamperMonkey 会显示数字角标：
 
-[[docs/confirm-activated.png|height=200px]]
+![](docs/confirm-activated.png)
 
 如果没激活，你可以关闭考试页面来检查哪里出了问题。
 当然，这是在你的副设备不会出卖你的前提下（比如没要求副设备/副设备采用了虚拟摄像头的情况）。
@@ -60,11 +60,11 @@
 
 如果你的试卷命题教师要求在考试过程中抓取屏幕，那么你会看到这样的弹窗：
 
-[[docs/select-media-device.png|height=200px]]
+![](docs/select-media-device.png)
 
 不要按官方指导里说的那样直接分享整个屏幕，切换至“标签页”选项卡，只分享考试标签页即可。
 
-[[docs/select-tab.png|height=200px]]
+![](docs/select-tab.png)
 
 本脚本会劫持分享区域类型的检测，欺骗考试系统让它以为这是整个屏幕。
 因此在选择分享标签页后，系统不会再弹窗告警。
@@ -85,7 +85,7 @@
 
 搞笑的是，在开发考试页的外挂脚本时，在控制台看到了这行输出：
 
-[[docs/console-warning.png|height=200px]]
+![](docs/console-warning.png)
 
 然而实际考察了代码后，发现这是个纯纯吓唬人的稻草人。
 （和同学模拟考试时负责监考的同学也反应“根本没有打开控制台的告警”）
