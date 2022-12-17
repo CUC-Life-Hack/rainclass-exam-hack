@@ -25,9 +25,9 @@ export default {
 		new WebpackUserscript({
 			headers: {
 				name: '雨课堂考试 Hack',
-				version: '1.0.3',
+				version: '1.0.4',
 				grant: [],
-				include: /https:\/\/examination\.xuetangx\.com/.toString(),
+				match: 'https://changjiang-exam.yuketang.cn/exam/*',
 				'run-at': 'document-start'
 			},
 			downloadBaseUrl: 'https://github.com/CUC-Life-Hack/rainclass-exam-hack/raw/master/dist/main.user.js',
