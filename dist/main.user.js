@@ -1,7 +1,8 @@
 // ==UserScript==
 // @name        雨课堂考试 Hack
-// @version     1.0.4
+// @version     1.0.5
 // @match       https://changjiang-exam.yuketang.cn/exam/*
+// @match       https://examination.xuetangx.com/exam/*
 // @run-at      document-start
 // @downloadURL https://github.com/CUC-Life-Hack/rainclass-exam-hack/raw/master/dist/main.user.js
 // @updateURL   https://github.com/CUC-Life-Hack/rainclass-exam-hack/raw/master/dist/main.user.js
