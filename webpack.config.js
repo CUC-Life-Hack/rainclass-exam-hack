@@ -25,11 +25,11 @@ export default {
 		new WebpackUserscript({
 			headers: {
 				name: '雨课堂考试 Hack',
-				version: '1.0.5',
+				version: '1.0.6',
 				grant: [],
 				match: [
-					'https://changjiang-exam.yuketang.cn/exam/*',
-					'https://examination.xuetangx.com/exam/*',
+					'https://changjiang-exam.yuketang.cn/*',
+					'https://examination.xuetangx.com/*',
 				],
 				'run-at': 'document-start'
 			},
